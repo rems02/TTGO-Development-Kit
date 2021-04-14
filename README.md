@@ -20,7 +20,27 @@ start by importing the file
 
 Centers the text in the middle of the screen:
 
-```def CentreTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+```CentreTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+Displays the text at the top left of the screen:
+
+```LeftTopTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+Displays the text at the bottom left of the screen
+
+```LeftBottomTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+Display the text at the top right of the screen:
+
+```RightTopTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+Display the message at the bottom right of the screen:
+
+```RightBottomTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+Displays newline messages:
+
+```message(txt, ColorTxt, ColorFonTxt, rotation=3)```
 
 **font** your font
 
