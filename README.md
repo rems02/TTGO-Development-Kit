@@ -13,4 +13,25 @@ This driver is based on [russhughes](https://github.com/russhughes/st7789_mpy) a
 ## WordProcessing.py ##
 #### How to use the functions ####
 
-...
+
+start by importing the file
+
+```import WordProcessing as wp```
+
+Centers the text in the middle of the screen:
+
+```def CentreTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
+
+**font** your font
+
+**txt:** your text
+
+**ColorTxt:** your text color
+
+**ColorFonTxt:** your backgroud text color
+
+**ajust_x (optional):** X-axis adjustment of x pixel
+
+**ajust_y (optional):** Y-axis adjustment of y pixel
+
+**rotation (optional):** screen position
