@@ -38,7 +38,7 @@ Display the message at the bottom right of the screen:
 
 ```RightBottomTxt(font, txt, ColorTxt, ColorFonTxt, ajust_x=0, ajust_y=0, rotation=3)```
 
-Displays newline messages:
+Displays the message with a carriage return:
 
 ```message(txt, ColorTxt, ColorFonTxt, rotation=3)```
 
